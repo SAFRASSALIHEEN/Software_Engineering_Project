@@ -65,6 +65,15 @@
     position: relative;
     width: 298px;
   }
+  .log-in-button:hover,
+.log-in-button:focus {
+  background-color: #1976d2;
+}
+
+.log-in-button:active {
+  background-color: #0d47a1;
+}
+
   
   .log-in {
     letter-spacing: 0;
@@ -95,7 +104,7 @@
     height: 167px;
     left: 0;
     position: absolute;
-    top: 0;
+    top: 12;
     width: 1440px;
   }
   .rectangle-1 {
@@ -127,12 +136,26 @@
     width: 143px;
   }
   .faculty-of-engineering {
-    left: 282px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-shadow: 0px 4px 4px #00000040;
-    top: 23px;
+    color: var(--cod-gray);
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 24px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--gossamer);
+    padding: 10px 0;
+    z-index: 999;
+  }
+  
+  .faculty-of-engineering span {
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
   }
   
   .ellipse-17 {
@@ -191,8 +214,8 @@
   .user-name {
     letter-spacing: 0.2px;
     line-height: 21px;
-    min-height: 37px;
-    width: 239px;
+    min-height: 25px;
+    white-space: nowrap;
   }
   .overlap-group3 {
     align-items: flex-start;
@@ -200,7 +223,7 @@
     border-radius: 10px;
     box-shadow: 0px 4px 4px #00000040;
     display: flex;
-    height: 60px;
+    height: 50px;
     margin-left: 1px;
     margin-top: 32px;
     min-width: 396px;
